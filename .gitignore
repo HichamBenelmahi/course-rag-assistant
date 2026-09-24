@@ -1,0 +1,13 @@
+# Environnement virtuel Python : se recrée avec requirements.txt
+.venv/
+
+# Secrets : ne doivent JAMAIS arriver sur GitHub
+.env
+
+# Fichiers générés automatiquement par Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Fichiers uploadés pendant les tests locaux
+uploads/
